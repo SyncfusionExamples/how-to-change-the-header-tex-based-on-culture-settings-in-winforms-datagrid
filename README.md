@@ -1,9 +1,10 @@
-# How to change the HeaderText based on culture settings in WinForms DataGrid (SfDataGrid)?
+# How to Change the HeaderText Based on Culture Settings in WinForms DataGrid?
 
-This sample illustrates how to change the HeaderText based on culture settings in SfDataGrid.
+This sample illustrates how to change the HeaderText based on culture settings in [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid).
 
-In SfDataGrid, you can change the header text of the columns based on culture settings by adding the required text values in to the default resx(resource) file.
+In `DataGrid`, you can change the header text of the columns based on culture settings by adding the required text values in to the default resx(resource) file.
 
+#### C#
 ```C#
 public Form1()
 {
@@ -31,12 +32,14 @@ public class ResourceWrapper
     }
 
     public string OrderIDText { get; set; }
+
     public string CustomerIDText { get; set; }
+
     public string ShipCountryText { get; set; }
 }
 ```
 
-![LocalizedHeaderText_Image](LocalizedHeaderText_Image.png)
+![Change the HeaderText based on the culture settings in DataGrid](LocalizedHeaderTextImage.png)
 
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
